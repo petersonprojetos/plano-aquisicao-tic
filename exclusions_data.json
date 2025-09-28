@@ -1,0 +1,187 @@
+[
+  {
+    "code": "3000",
+    "name": "Mouses — dispositivos de entrada",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022 como periféricos não considerados recursos de TIC."
+  },
+  {
+    "code": "3001",
+    "name": "Teclados",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022 como periféricos não considerados recursos de TIC."
+  },
+  {
+    "code": "3002",
+    "name": "Caixas de som / alto‑falantes",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3003",
+    "name": "Projetores",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3004",
+    "name": "Televisores em geral",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3005",
+    "name": "Dispositivos RFID (quando adquiridos isoladamente)",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3006",
+    "name": "Impressoras 3D",
+    "justification": "Excluídas explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3007",
+    "name": "Aparelhos telefônicos (fixos, celulares, smartphones)",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3008",
+    "name": "Relógio de ponto (hardware físico tradicional)",
+    "justification": "Excluído explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3009",
+    "name": "Rádio comunicadores e estações rádio base",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3010",
+    "name": "Câmeras fotográficas e webcams adquiridas isoladamente",
+    "justification": "Excluídas quando não integradas a solução de informação, conforme Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3011",
+    "name": "Cartuchos, toners e demais insumos de impressão",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3012",
+    "name": "Plotters e serviços de plotagem / impressão gráfica (banners, lonas)",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3013",
+    "name": "Drones e veículos tripulados ou não tripulados (quando não integrados a solução TIC)",
+    "justification": "Excluídos quando não parte de solução TIC, conforme Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3014",
+    "name": "Equipamentos de segmento médico, construção civil, tráfego aéreo, máquinas de produção industrial",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3015",
+    "name": "Equipamentos de raio‑x (inclusive para controle de acesso)",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3016",
+    "name": "Segmentos de áudio e vídeo (equipamentos AV não integrados a SI)",
+    "justification": "Excluídos quando não forem recursos digitais integrados a solução, conforme Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3017",
+    "name": "Fechaduras eletrônicas (quando são apenas controle físico sem integração digital ao SI)",
+    "justification": "Excluídas quando não integradas digitalmente a sistemas de informação, conforme Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3018",
+    "name": "Bloqueadores de sinal de celular",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3019",
+    "name": "Gravadores de áudio digital ou analógico",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3020",
+    "name": "Headsets (periféricos de áudio simples)",
+    "justification": "Mencionados na lista de exclusões/itens periféricos no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3021",
+    "name": "Nobreaks (UPS) — infraestrutura elétrica predial",
+    "justification": "Infraestrutura elétrica excluída no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3022",
+    "name": "Estabilizadores — infraestrutura elétrica predial",
+    "justification": "Infraestrutura elétrica excluída no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3023",
+    "name": "Pendrives, HDs externos, SSDs externos, drives externos (portáteis)",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3024",
+    "name": "Cabeamento estruturado passivo: fibras ópticas, cabos UTP/STP, conduítes, conectores, patch panels (quando caracterizados como cabeamento)",
+    "justification": "Excluídos no Anexo II da IN 94/2022 como soluções de cabeamento estruturado."
+  },
+  {
+    "code": "3025",
+    "name": "Infraestrutura elétrica predial (geradores, nobreaks etc.)",
+    "justification": "Excluída explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3026",
+    "name": "Infraestrutura hidráulica / climatização (sistema de refrigeração, chillers, UTA, HVAC)",
+    "justification": "Excluída explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3027",
+    "name": "Serviços de vigilância patrimonial (CFTV analógico/digital e componentes acessórios)",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3028",
+    "name": "Obras civis e manutenção predial",
+    "justification": "Citadas como exclusão no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3029",
+    "name": "Serviços financeiros ou bancários (quando não são recurso de TIC)",
+    "justification": "Excluídos da categoria Infraestrutura de TIC no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3030",
+    "name": "Controle de acesso físico (portas, catracas, elevadores)",
+    "justification": "Excluído explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3031",
+    "name": "Telefonia fixa comutada (STFC), Serviço Móvel Pessoal (SMP), VoIP, centrais telefônicas, PABX (físicas ou virtuais)",
+    "justification": "Excluídos da categoria Comunicação de Dados no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3032",
+    "name": "Call centers / contact centers para serviços gerais não relacionados exclusivamente a TIC",
+    "justification": "Excluídos da categoria Suporte a Usuário de TIC no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3033",
+    "name": "Serviços de impressão gráfica e arquivística de massa (plotagem, banners, classificação/recuperação/digitalização massiva)",
+    "justification": "Excluídos explicitamente no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3034",
+    "name": "Programas embarcados em equipamentos não classificados como recursos de TIC",
+    "justification": "Excluídos no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3035",
+    "name": "Produção de conteúdo multimídia, gestão de conteúdo de sites e mídias sociais, fornecimento de conteúdo digital, assinaturas de periódicos eletrônicos, publicidade e comunicação digital",
+    "justification": "Excluídos da categoria Consultoria em TIC no Anexo II da IN 94/2022."
+  },
+  {
+    "code": "3036",
+    "name": "Sistema de combate a incêndio predial (quando classificado como infraestrutura predial)",
+    "justification": "Citado entre exclusões integradas ao datacenter no Anexo II da IN 94/2022."
+  }
+]

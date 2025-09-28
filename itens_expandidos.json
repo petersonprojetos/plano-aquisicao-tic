@@ -1,0 +1,366 @@
+[
+  {
+    "codigo": "1300",
+    "nome": "Microcomputador Básico",
+    "descricao": "Estação de trabalho de baixo desempenho para tarefas administrativas (processador básico, 4–8GB RAM, SSD/HDD 128–256GB).",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Computadores e Estações"
+  },
+  {
+    "codigo": "1301",
+    "nome": "Microcomputador Intermediário",
+    "descricao": "Estação de uso geral com desempenho equilibrado para aplicações administrativas e produtividade (processador intermediário, 8–16GB RAM, SSD 256–512GB).",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Computadores e Estações"
+  },
+  {
+    "codigo": "1302",
+    "nome": "Microcomputador Avançado",
+    "descricao": "Estação de alto desempenho para tarefas intensivas (processador avançado, 16–64GB RAM, SSD NVMe, GPU opcional).",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Computadores e Estações"
+  },
+  {
+    "codigo": "1303",
+    "nome": "Notebook Básico",
+    "descricao": "Laptop para mobilidade com configuração básica para atividades de escritório (processador básico, 4–8GB RAM, SSD/HDD 128–256GB).",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Computadores e Estações"
+  },
+  {
+    "codigo": "1304",
+    "nome": "Notebook Intermediário",
+    "descricao": "Laptop com desempenho para uso corporativo geral (8–16GB RAM, SSD 256–512GB, melhor autonomia).",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Computadores e Estações"
+  },
+  {
+    "codigo": "1305",
+    "nome": "Notebook Avançado",
+    "descricao": "Laptop de alto desempenho para usuários avançados (CPU/GPU potentes, 16–64GB RAM, SSD NVMe, recursos de segurança).",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Computadores e Estações"
+  },
+  {
+    "codigo": "1306",
+    "nome": "Thin client",
+    "descricao": "Endpoint leve para acesso a desktops virtuais / DaaS (pouco armazenamento local, dependência de servidor).",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Computadores e Estações"
+  },
+  {
+    "codigo": "1307",
+    "nome": "Servidor rack 1U",
+    "descricao": "Servidor físico em formato 1U para instalação em rack 19\" (CPU, memória, armazenamento interno).",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Servidores e Plataformas de Processamento"
+  },
+  {
+    "codigo": "1308",
+    "nome": "Blade server",
+    "descricao": "Servidor em formato blade para chassis modular, destinado a ambientes densos de cómputo.",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Servidores e Plataformas de Processamento"
+  },
+  {
+    "codigo": "1309",
+    "nome": "Appliance de virtualização",
+    "descricao": "Appliance integrada (hardware+software) otimizada para virtualização e gerenciamento de VMs/containers.",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Servidores e Plataformas de Processamento"
+  },
+  {
+    "codigo": "1310",
+    "nome": "Storage SAN (array)",
+    "descricao": "Array de armazenamento centralizado em rede (SAN) para dados corporativos com alta disponibilidade.",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Armazenamento"
+  },
+  {
+    "codigo": "1311",
+    "nome": "Storage NAS",
+    "descricao": "Sistema de armazenamento em rede (NAS) para arquivos compartilhados e serviços de arquivo.",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Armazenamento"
+  },
+  {
+    "codigo": "1313",
+    "nome": "Rack 19\"",
+    "descricao": "Estrutura física padrão para montagem de equipamentos de TIC em datacenter ou sala técnica.",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Racks e Suportes"
+  },
+  {
+    "codigo": "1315",
+    "nome": "Switch gerenciável (LAN)",
+    "descricao": "Switch layer 2/3 com recursos de gerenciamento, VLANs e QoS para rede local.",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Equipamentos de Rede Ativa"
+  },
+  {
+    "codigo": "1316",
+    "nome": "Router de perímetro",
+    "descricao": "Roteador para borda de rede, controle de rotas e conectividade com provedores.",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Equipamentos de Rede Ativa"
+  },
+  {
+    "codigo": "1317",
+    "nome": "Firewall appliance",
+    "descricao": "Appliance de segurança de rede (NGFW).",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Equipamentos de Rede Ativa"
+  },
+  {
+    "codigo": "1318",
+    "nome": "Balanceador de carga (appliance)",
+    "descricao": "Dispositivo para distribuição de tráfego entre servidores.",
+    "categoria": "MATERIAIS E EQUIPAMENTOS DE TIC",
+    "tipo": "Equipamentos de Rede Ativa"
+  },
+  {
+    "codigo": "1319",
+    "nome": "Impressora corporativa (laser)",
+    "descricao": "Impressora para ambiente corporativo com contrato de manutenção.",
+    "categoria": "IMPRESSÃO E DIGITALIZAÇÃO",
+    "tipo": "Serviços de Impressão e Cópia (tradicional)"
+  },
+  {
+    "codigo": "1320",
+    "nome": "Scanner de documentos",
+    "descricao": "Scanner para digitalização de documentos integrável a serviço de digitalização.",
+    "categoria": "IMPRESSÃO E DIGITALIZAÇÃO",
+    "tipo": "Serviços de Impressão e Cópia (tradicional)"
+  },
+  {
+    "codigo": "1321",
+    "nome": "Licença SaaS (produtividade)",
+    "descricao": "Subscrição de suíte de produtividade (por usuário).",
+    "categoria": "SOFTWARE E APLICATIVOS",
+    "tipo": "Licenciamento de Software"
+  },
+  {
+    "codigo": "1322",
+    "nome": "Licença de SGBD (servidor)",
+    "descricao": "Licença de banco de dados para instância/cores.",
+    "categoria": "SOFTWARE E APLICATIVOS",
+    "tipo": "Licenciamento de Software"
+  },
+  {
+    "codigo": "1323",
+    "nome": "Desenvolvimento de software sob demanda",
+    "descricao": "Projeto e entrega incremental de software customizado (métrica por produto/resultado).",
+    "categoria": "DESENVOLVIMENTO E SUSTENTAÇÃO DE SISTEMAS",
+    "tipo": "Desenvolvimento e Customização"
+  },
+  {
+    "codigo": "1324",
+    "nome": "Testes funcionais de software",
+    "descricao": "Verificação de funcionalidades do software em ambiente de teste.",
+    "categoria": "DESENVOLVIMENTO E SUSTENTAÇÃO DE SISTEMAS",
+    "tipo": "Testes e Qualidade"
+  },
+  {
+    "codigo": "1325",
+    "nome": "Teste de segurança (pentest)",
+    "descricao": "Avaliação de segurança de software/aplicação por simulação de ataque.",
+    "categoria": "DESENVOLVIMENTO E SUSTENTAÇÃO DE SISTEMAS",
+    "tipo": "Testes e Qualidade"
+  },
+  {
+    "codigo": "1326",
+    "nome": "Contrato de sustentação evolutiva",
+    "descricao": "Serviço contínuo de manutenção, correção e evolução de software.",
+    "categoria": "DESENVOLVIMENTO E SUSTENTAÇÃO DE SISTEMAS",
+    "tipo": "Sustentação, Manutenção e Evolução"
+  },
+  {
+    "codigo": "1327",
+    "nome": "Co-location em datacenter",
+    "descricao": "Serviço de locação de espaço físico em datacenter para servidores.",
+    "categoria": "HOSPEDAGEM DE SISTEMAS",
+    "tipo": "Hosting & Co-location"
+  },
+  {
+    "codigo": "1328",
+    "nome": "Hosting gerenciado",
+    "descricao": "Serviço de hospedagem de servidores/aplicações com gestão técnica.",
+    "categoria": "HOSPEDAGEM DE SISTEMAS",
+    "tipo": "Managed Hosting / Application Hosting"
+  },
+  {
+    "codigo": "1329",
+    "nome": "Backup gerenciado",
+    "descricao": "Serviço de backup e replicação de dados com SLA.",
+    "categoria": "HOSPEDAGEM DE SISTEMAS",
+    "tipo": "Serviços associados à Hospedagem"
+  },
+  {
+    "codigo": "1330",
+    "nome": "Service desk Nível 1",
+    "descricao": "Atendimento inicial a usuários de TIC (abertura de chamados, triagem).",
+    "categoria": "SUPORTE E ATENDIMENTO A USUÁRIO DE TIC",
+    "tipo": "Service Desk / Help Desk"
+  },
+  {
+    "codigo": "1331",
+    "nome": "Help desk Nível 2",
+    "descricao": "Suporte técnico especializado para resolução de incidentes complexos.",
+    "categoria": "SUPORTE E ATENDIMENTO A USUÁRIO DE TIC",
+    "tipo": "Service Desk / Help Desk"
+  },
+  {
+    "codigo": "1332",
+    "nome": "Suporte técnico a desktops/notebooks",
+    "descricao": "Manutenção e suporte técnico a estações de trabalho.",
+    "categoria": "SUPORTE E ATENDIMENTO A USUÁRIO DE TIC",
+    "tipo": "Suporte Técnico à Microinformática"
+  },
+  {
+    "codigo": "1333",
+    "nome": "Operação de ambiente (NOC)",
+    "descricao": "Gestão técnica de infraestrutura de TIC em tempo real.",
+    "categoria": "INFRAESTRUTURA DE TIC",
+    "tipo": "Infraestrutura Lógica / Operação"
+  },
+  {
+    "codigo": "1334",
+    "nome": "Certificação digital (PKI)",
+    "descricao": "Serviço de emissão e gestão de certificados digitais para sistemas.",
+    "categoria": "INFRAESTRUTURA DE TIC",
+    "tipo": "Infraestrutura Lógica / Operação"
+  },
+  {
+    "codigo": "1335",
+    "nome": "Administração de banco de dados",
+    "descricao": "Gestão técnica de SGBDs implantados (instalação, manutenção, tuning).",
+    "categoria": "INFRAESTRUTURA DE TIC",
+    "tipo": "Serviços de Administração de Bases Instaladas"
+  },
+  {
+    "codigo": "1336",
+    "nome": "Link MPLS",
+    "descricao": "Conectividade dedicada com QoS para interligação de redes corporativas.",
+    "categoria": "COMUNICAÇÃO DE DADOS",
+    "tipo": "Conectividade e Links de Dados"
+  },
+  {
+    "codigo": "1337",
+    "nome": "Plataforma de videoconferência (licença)",
+    "descricao": "Licença de uso de plataforma de videoconferência corporativa.",
+    "categoria": "COMUNICAÇÃO DE DADOS",
+    "tipo": "Videoconferência e Colaboração"
+  },
+  {
+    "codigo": "1338",
+    "nome": "Serviço de envio de SMS",
+    "descricao": "Integração de sistema para envio de mensagens de texto (SMS).",
+    "categoria": "COMUNICAÇÃO DE DADOS",
+    "tipo": "Mensageria e Recebimento de Dados"
+  },
+  {
+    "codigo": "1339",
+    "nome": "Consultoria em arquitetura empresarial",
+    "descricao": "Avaliação e definição de arquitetura de TIC corporativa (TOGAF, etc.).",
+    "categoria": "CONSULTORIA EM TIC",
+    "tipo": "Consultoria Estratégica e Arquitetura"
+  },
+  {
+    "codigo": "1340",
+    "nome": "Avaliação de maturidade TIC",
+    "descricao": "Diagnóstico de nível de maturidade de processos e práticas de TIC.",
+    "categoria": "CONSULTORIA EM TIC",
+    "tipo": "Serviços Especializados em TIC"
+  },
+  {
+    "codigo": "1341",
+    "nome": "IaaS (instância virtual)",
+    "descricao": "Serviço de infraestrutura como serviço (máquina virtual, storage, rede).",
+    "categoria": "COMPUTAÇÃO EM NUVEM",
+    "tipo": "Infraestrutura de Nuvem (IaaS / Co-managed)"
+  },
+  {
+    "codigo": "1342",
+    "nome": "PaaS (plataforma de desenvolvimento)",
+    "descricao": "Serviço de plataforma como serviço para desenvolvimento de aplicações.",
+    "categoria": "COMPUTAÇÃO EM NUVEM",
+    "tipo": "Plataformas (PaaS) e Serviços"
+  },
+  {
+    "codigo": "1343",
+    "nome": "Orquestração multicloud",
+    "descricao": "Serviço de gestão e automação de múltiplos ambientes de nuvem.",
+    "categoria": "COMPUTAÇÃO EM NUVEM",
+    "tipo": "Orquestração Multicloud e Brokerage"
+  },
+  {
+    "codigo": "1344",
+    "nome": "Sensor IoT (temperatura)",
+    "descricao": "Sensor conectado que envia dados de temperatura para sistema do órgão.",
+    "categoria": "INTERNET DAS COISAS — IoT",
+    "tipo": "Dispositivos IoT (integrados a sistemas)"
+  },
+  {
+    "codigo": "1345",
+    "nome": "Gateway IoT",
+    "descricao": "Dispositivo de borda para coleta e envio de dados de sensores IoT.",
+    "categoria": "INTERNET DAS COISAS — IoT",
+    "tipo": "Dispositivos IoT (integrados a sistemas)"
+  },
+  {
+    "codigo": "1346",
+    "nome": "Plataforma de gestão de IoT",
+    "descricao": "Middleware para gestão de dispositivos e dados de IoT.",
+    "categoria": "INTERNET DAS COISAS — IoT",
+    "tipo": "Serviços IoT e Plataformas"
+  },
+  {
+    "codigo": "1347",
+    "nome": "Pentest de rede",
+    "descricao": "Teste de intrusão em infraestrutura de rede e sistemas.",
+    "categoria": "SEGURANÇA DA INFORMAÇÃO E PRIVACIDADE",
+    "tipo": "Testes e Avaliações de Segurança"
+  },
+  {
+    "codigo": "1348",
+    "nome": "Serviço de SOC",
+    "descricao": "Monitoramento contínuo de eventos de segurança (Security Operations Center).",
+    "categoria": "SEGURANÇA DA INFORMAÇÃO E PRIVACIDADE",
+    "tipo": "Monitoramento e Resposta a Incidentes"
+  },
+  {
+    "codigo": "1349",
+    "nome": "Consultoria em LGPD",
+    "descricao": "Avaliação e adequação de sistemas e processos à Lei Geral de Proteção de Dados.",
+    "categoria": "SEGURANÇA DA INFORMAÇÃO E PRIVACIDADE",
+    "tipo": "Consultoria e Compliance em Segurança"
+  },
+  {
+    "codigo": "1350",
+    "nome": "Data Warehouse corporativo",
+    "descricao": "Implantação de repositório centralizado de dados para BI.",
+    "categoria": "ANÁLISE DE DADOS, ML E IA",
+    "tipo": "Business Intelligence e Governança de Dados"
+  },
+  {
+    "codigo": "1351",
+    "nome": "Ferramenta de BI (licença)",
+    "descricao": "Licença de ferramenta de Business Intelligence para visualização de dados.",
+    "categoria": "ANÁLISE DE DADOS, ML E IA",
+    "tipo": "Business Intelligence e Governança de Dados"
+  },
+  {
+    "codigo": "1352",
+    "nome": "Projeto de Machine Learning",
+    "descricao": "Desenvolvimento e implantação de modelo preditivo com métricas de acurácia.",
+    "categoria": "ANÁLISE DE DADOS, ML E IA",
+    "tipo": "Machine Learning e IA"
+  },
+  {
+    "codigo": "1353",
+    "nome": "Processamento de Big Data",
+    "descricao": "Serviço de processamento de grandes volumes de dados (ETL, pipelines).",
+    "categoria": "ANÁLISE DE DADOS, ML E IA",
+    "tipo": "Geoprocessamento e Big Data"
+  }
+]

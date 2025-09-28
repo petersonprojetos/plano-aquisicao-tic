@@ -1,0 +1,444 @@
+generator client {
+    provider = "prisma-client-js"
+    binaryTargets = ["native", "linux-musl-arm64-openssl-3.0.x"]
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+model User {
+  id                String   @id @default(cuid())
+  email             String   @unique
+  name              String
+  password          String
+  role              UserRole @default(USER)
+  departmentId      String   @map("department_id")
+  isActive          Boolean  @default(true)
+  lastLogin         DateTime?
+  emailVerified     DateTime? @map("email_verified")
+  mfaEnabled        Boolean  @default(false) @map("mfa_enabled")
+  mfaCode           String?  @map("mfa_code")
+  mfaCodeExpires    DateTime? @map("mfa_code_expires")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  department Department @relation(fields: [departmentId], references: [id])
+  accounts   Account[]
+  sessions   Session[]
+  requests   Request[]
+  requestsCreated RequestHistory[] @relation("CreatedBy")
+  requestsUpdated RequestHistory[] @relation("UpdatedBy")
+  notifications Notification[]
+  annualPlansCreated AnnualPlan[] @relation("CreatedBy")
+  annualPlansUpdated AnnualPlan[] @relation("UpdatedBy")
+
+  @@map("users")
+}
+
+model Department {
+  id               String      @id @default(cuid())
+  code             String      @unique @db.VarChar(10)
+  sigla_departamento String?    @db.VarChar(10)
+  name             String      @unique
+  parentId         String?     @map("parent_id")
+  typeId           String?     @map("type_id")
+  commander        String?
+  phone            String?
+  address          String?
+  city             String?
+  state            String?
+  zipCode          String?     @map("zip_code")
+  country          String?     @default("Brasil")
+  annualBudget     Decimal?    @db.Decimal(15,2) @map("annual_budget")
+  observations     String?
+  isActive         Boolean     @default(true) @map("is_active")
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  parent       Department?  @relation("DepartmentHierarchy", fields: [parentId], references: [id])
+  children     Department[] @relation("DepartmentHierarchy")
+  type         DepartmentType? @relation(fields: [typeId], references: [id])
+  users        User[]
+  requests     Request[]
+  annualPlans  AnnualPlan[]
+
+  @@map("departments")
+}
+
+model DepartmentType {
+  id           String   @id @default(cuid())
+  code         String   @unique @db.VarChar(5)
+  name         String   @unique
+  observations String?
+  isActive     Boolean  @default(true) @map("is_active")
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  departments Department[]
+
+  @@map("department_types")
+}
+
+model Request {
+  id                    String            @id @default(cuid())
+  requestNumber         String            @unique @map("request_number")
+  requesterName         String            @map("requester_name")
+  userId                String            @map("user_id")
+  departmentId          String            @map("department_id")
+  status                RequestStatus     @default(OPEN)
+  managerStatus         ManagerStatus     @default(PENDING_AUTHORIZATION) @map("manager_status")
+  approverStatus        ApproverStatus    @default(PENDING_APPROVAL) @map("approver_status")
+  requestDate           DateTime          @default(now()) @map("request_date")
+  totalValue            Decimal           @default(0) @db.Decimal(15,2) @map("total_value")
+  description           String?
+  justification         String?
+  managerApprovedBy     String?           @map("manager_approved_by")
+  managerApprovedAt     DateTime?         @map("manager_approved_at")
+  managerRejectionReason String?          @map("manager_rejection_reason")
+  approvedBy            String?           @map("approved_by")
+  approvedAt            DateTime?         @map("approved_at")
+  rejectionReason       String?           @map("rejection_reason")
+  reopenedBy            String?           @map("reopened_by")
+  reopenedAt            DateTime?         @map("reopened_at")
+  reopenReason          String?           @map("reopen_reason")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user       User @relation(fields: [userId], references: [id])
+  department Department @relation(fields: [departmentId], references: [id])
+  items      RequestItem[]
+  history    RequestHistory[]
+  notifications Notification[]
+
+  @@map("requests")
+}
+
+model RequestItem {
+  id                    String          @id @default(cuid())
+  requestId             String          @map("request_id")
+  itemName              String          @map("item_name")
+  itemTypeId            String          @map("item_type_id")
+  itemCategoryId        String          @map("item_category_id")
+  acquisitionType       AcquisitionType @map("acquisition_type")
+  contractTypeId        String?         @map("contract_type_id")
+  acquisitionTypeMasterId String?       @map("acquisition_type_master_id")
+
+  itemType             ItemTypeMaster   @relation(fields: [itemTypeId], references: [id])
+  itemCategory         ItemCategoryMaster @relation(fields: [itemCategoryId], references: [id])
+  quantity              Int
+  unitValue             Decimal         @db.Decimal(15,2) @map("unit_value")
+  totalValue            Decimal         @db.Decimal(15,2) @map("total_value")
+  specifications        String?
+  brand                 String?
+  model                 String?
+  supplier              String?
+  estimatedDelivery     DateTime?       @map("estimated_delivery")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  request             Request                 @relation(fields: [requestId], references: [id], onDelete: Cascade)
+  contractType        ContractType?           @relation(fields: [contractTypeId], references: [id])
+  acquisitionTypeMaster AcquisitionTypeMaster? @relation(fields: [acquisitionTypeMasterId], references: [id])
+
+  @@map("request_items")
+}
+
+model RequestHistory {
+  id          String        @id @default(cuid())
+  requestId   String        @map("request_id")
+  action      String
+  oldStatus   RequestStatus? @map("old_status")
+  newStatus   RequestStatus? @map("new_status")
+  oldValue    Decimal?      @db.Decimal(15,2) @map("old_value")
+  newValue    Decimal?      @db.Decimal(15,2) @map("new_value")
+  comments    String?
+  createdById String        @map("created_by_id")
+  updatedById String?       @map("updated_by_id")
+
+  createdAt DateTime @default(now())
+
+  request   Request @relation(fields: [requestId], references: [id], onDelete: Cascade)
+  createdBy User    @relation("CreatedBy", fields: [createdById], references: [id])
+  updatedBy User?   @relation("UpdatedBy", fields: [updatedById], references: [id])
+
+  @@map("request_history")
+}
+
+model AnnualPlan {
+  id           String   @id @default(cuid())
+  year         Int
+  departmentId String   @map("department_id")
+  title        String
+  description  String?
+  totalBudget  Decimal  @db.Decimal(15,2) @map("total_budget")
+  usedBudget   Decimal  @default(0) @db.Decimal(15,2) @map("used_budget")
+  status       PlanStatus @default(DRAFT)
+  isActive     Boolean  @default(true) @map("is_active")
+  createdById  String   @map("created_by_id")
+  updatedById  String?  @map("updated_by_id")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  department Department @relation(fields: [departmentId], references: [id])
+  createdBy  User       @relation("CreatedBy", fields: [createdById], references: [id])
+  updatedBy  User?      @relation("UpdatedBy", fields: [updatedById], references: [id])
+
+  @@unique([year, departmentId])
+  @@map("annual_plans")
+}
+
+model Notification {
+  id        String           @id @default(cuid())
+  userId    String           @map("user_id")
+  requestId String?          @map("request_id")
+  type      NotificationType
+  title     String
+  message   String
+  isRead    Boolean          @default(false) @map("is_read")
+  sentAt    DateTime?        @map("sent_at")
+
+  createdAt DateTime @default(now())
+
+  user    User     @relation(fields: [userId], references: [id])
+  request Request? @relation(fields: [requestId], references: [id])
+
+  @@map("notifications")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String  @map("user_id")
+  type              String
+  provider          String
+  providerAccountId String  @map("provider_account_id")
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@map("accounts")
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique @map("session_token")
+  userId       String   @map("user_id")
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("sessions")
+}
+
+model VerificationToken {
+  identifier String
+  token      String
+  expires    DateTime
+
+  @@unique([identifier, token])
+  @@map("verificationtokens")
+}
+
+enum UserRole {
+  USER
+  MANAGER
+  APPROVER
+  ADMIN
+}
+
+enum RequestStatus {
+  OPEN
+  PENDING_MANAGER_APPROVAL
+  PENDING_APPROVAL
+  APPROVED
+  REOPENED
+  IN_ANALYSIS
+  IN_PROGRESS
+  AWAITING_DELIVERY
+  COMPLETED
+  CANCELLED
+  REJECTED
+}
+
+enum ManagerStatus {
+  PENDING_AUTHORIZATION
+  AUTHORIZE
+  DENY
+  RETURN
+}
+
+enum ApproverStatus {
+  PENDING_APPROVAL
+  APPROVE
+  REJECT
+  RETURN
+}
+
+enum ItemType {
+  COMPUTER
+  NOTEBOOK
+  PRINTER
+  PERIPHERALS
+  MONITOR
+  UPS
+  NETWORK_INSTALLATION
+  SOFTWARE
+  MAINTENANCE
+  OTHER
+}
+
+enum ItemCategory {
+  PRODUCT
+  SERVICE
+}
+
+enum AcquisitionType {
+  PURCHASE
+  RENTAL
+  RENEWAL
+}
+
+enum NotificationType {
+  REQUEST_CREATED
+  REQUEST_APPROVED
+  REQUEST_REJECTED
+  STATUS_CHANGED
+  BUDGET_ALERT
+}
+
+enum PlanStatus {
+  DRAFT
+  ACTIVE
+  COMPLETED
+  CANCELLED
+}
+
+model SystemParameters {
+  id                    String   @id @default(cuid())
+  name                  String   @unique
+  value                 String
+  type                  ParameterType
+  description           String?
+  isActive              Boolean  @default(true) @map("is_active")
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("system_parameters")
+}
+
+model ItemCategoryMaster {
+  id          String   @id @default(cuid())
+  code        String   @unique @db.VarChar(10)
+  name        String   @unique
+  description String?
+  isActive    Boolean  @default(true) @map("is_active")
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  items Item[]
+  requestItems RequestItem[]
+
+  @@map("item_categories")
+}
+
+model ItemTypeMaster {
+  id          String   @id @default(cuid())
+  code        String   @unique @db.VarChar(10)
+  name        String   @unique
+  description String?
+  isActive    Boolean  @default(true) @map("is_active")
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  items Item[]
+  requestItems RequestItem[]
+
+  @@map("item_types")
+}
+
+model Item {
+  id             String   @id @default(cuid())
+  code           String   @unique @db.VarChar(10)
+  name           String
+  description    String?
+  categoryId     String   @map("category_id")
+  typeId         String   @map("type_id")
+  specifications String?
+  isActive       Boolean  @default(true) @map("is_active")
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  category ItemCategoryMaster @relation(fields: [categoryId], references: [id])
+  type     ItemTypeMaster     @relation(fields: [typeId], references: [id])
+
+  @@map("items")
+}
+
+model ItemExclusion {
+  id            String   @id @default(cuid())
+  code          String   @unique @db.VarChar(10)
+  name          String
+  justification String
+  isActive      Boolean  @default(true) @map("is_active")
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("item_exclusions")
+}
+
+model ContractType {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  name        String   @unique
+  description String?
+  isActive    Boolean  @default(true) @map("is_active")
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  requestItems RequestItem[]
+
+  @@map("contract_types")
+}
+
+model AcquisitionTypeMaster {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  name        String   @unique
+  description String?
+  isActive    Boolean  @default(true) @map("is_active")
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  requestItems RequestItem[]
+
+  @@map("acquisition_types")
+}
+
+enum ParameterType {
+  STRING
+  NUMBER
+  BOOLEAN
+  COLOR
+  IMAGE
+  JSON
+}

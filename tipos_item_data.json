@@ -1,0 +1,67 @@
+[
+  {
+    "codigo": "CAT.01",
+    "nome": "MATERIAIS E EQUIPAMENTOS DE TIC (MEQT)",
+    "descricao": "Equipamentos e dispositivos digitais que coletam, tratam, armazenam, comutam, transmitem ou apresentam informação (ex.: desktops, servidores, storage, switches, scanners). Inclui serviços de manutenção e suporte desses equipamentos."
+  },
+  {
+    "codigo": "CAT.02",
+    "nome": "DESENVOLVIMENTO E SUSTENTAÇÃO DE SISTEMAS (DVSS)",
+    "descricao": "Serviços de desenvolvimento, customização, testes, manutenção corretiva e evolutiva, sustentação e qualificação de software e sistemas, com métricas por produto/resultado."
+  },
+  {
+    "codigo": "CAT.03",
+    "nome": "HOSPEDAGEM DE SISTEMAS (HSPD)",
+    "descricao": "Disponibilização e operação de sistemas e aplicações em servidores próprios ou de terceiros (hosting, co‑location, managed hosting), incluindo backup e replicação gerenciados."
+  },
+  {
+    "codigo": "CAT.04",
+    "nome": "SUPORTE E ATENDIMENTO A USUÁRIO DE TIC (SUAT)",
+    "descricao": "Serviços de service desk, help desk, gestão de incidentes e suporte técnico a usuários e estações de trabalho, níveis 1/2/3."
+  },
+  {
+    "codigo": "CAT.05",
+    "nome": "INFRAESTRUTURA DE TIC (INFT)",
+    "descricao": "Serviços lógicos e operacionais necessários à disponibilização de informação (NOC, operação de ambientes, certificação digital, controle lógico), excluindo infraestrutura predial/electrica passiva conforme IN."
+  },
+  {
+    "codigo": "CAT.06",
+    "nome": "COMUNICAÇÃO DE DADOS (CMDD)",
+    "descricao": "Serviços de transmissão e interconexão de dados (links WAN/MPLS/Internet, conectividade dedicada, plataformas de videoconferência, serviços de mensageria e recepção de dados)."
+  },
+  {
+    "codigo": "CAT.07",
+    "nome": "SOFTWARE E APLICATIVOS (SFTW)",
+    "descricao": "Programas de computador e aplicações que suportam processamento de informação (licenças perpétuas, subscrições SaaS, ferramentas aplicacionais e de produtividade)."
+  },
+  {
+    "codigo": "CAT.08",
+    "nome": "IMPRESSÃO E DIGITALIZAÇÃO (IMDG)",
+    "descricao": "Serviços de impressão corporativa, cópia e digitalização de documentos (excluem‑se impressão 3D, plotagem e serviços arquivísticos massivos)."
+  },
+  {
+    "codigo": "CAT.09",
+    "nome": "CONSULTORIA EM TIC (COTI)",
+    "descricao": "Serviços de consultoria, arquitetura, governança, avaliação de maturidade, planejamento e definição de estratégias e políticas de TIC (exceto produção de conteúdo multimídia e gestão de mídias sociais)."
+  },
+  {
+    "codigo": "CAT.10",
+    "nome": "COMPUTAÇÃO EM NUVEM (CNUV)",
+    "descricao": "Serviços de nuvem (IaaS, PaaS, SaaS, DBaaS, CaaS, FaaS, orquestração e brokerage), com requisitos de segurança e portabilidade de dados conforme IN."
+  },
+  {
+    "codigo": "CAT.11",
+    "nome": "INTERNET DAS COISAS — IoT (IOTI)",
+    "descricao": "Dispositivos e plataformas IoT que enviem/recebam/processem/armazenem dados integrados a sistemas de informação do órgão; inclui gateways e plataformas de gestão."
+  },
+  {
+    "codigo": "CAT.12",
+    "nome": "SEGURANÇA DA INFORMAÇÃO E PRIVACIDADE (SIPP)",
+    "descricao": "Serviços de avaliação, testes e proteção digital (pentest, SOC, gestão de vulnerabilidades, resposta a incidentes, consultoria em privacidade e conformidade)."
+  },
+  {
+    "codigo": "CAT.13",
+    "nome": "ANÁLISE DE DADOS, ML E IA (ADAI)",
+    "descricao": "Serviços e soluções de BI, Big Data, governança de dados, machine learning e inteligência artificial (modelagem, pipelines, treinamentos e implantação)."
+  }
+]

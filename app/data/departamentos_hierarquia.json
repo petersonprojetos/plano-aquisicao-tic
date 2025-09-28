@@ -1,0 +1,1835 @@
+{
+  "departamentos_pai": [
+    {
+      "codigo": "10000969",
+      "sigla": "PM-BA",
+      "nome": "POLICIA MILITAR DO ESTADO DA BAHIA",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10009126",
+      "sigla": "CPR-R",
+      "nome": "CMD DE POL. DA REGIAO DO RECONCAVO      ",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10009165",
+      "sigla": "CPR-NE",
+      "nome": "CMD DE POL. DA REGIAO NORDESTE     ",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10009184",
+      "sigla": "CPR-ES",
+      "nome": "CMD DE POL. DA REGIAO DO EXTREMO SUL   ",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10009203",
+      "sigla": "CPR-MO",
+      "nome": "CMD DE POL. DA REGIAO MEIO OESTE        ",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10009241",
+      "sigla": "CPAP",
+      "nome": "CMD. POL. DE APOIO OPERACIONAL ",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10009260",
+      "sigla": "CPME",
+      "nome": "CMD. POL. DE MISSOES ESPECIAIS          ",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10009601",
+      "sigla": "CIPE/LESTE",
+      "nome": "CIA IND DE POL ESPECIALIZADO/LESTE",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10015900",
+      "sigla": "CG",
+      "nome": "COMANDO GERAL",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10015933",
+      "sigla": "SCG",
+      "nome": "SUBCOMANDO GERAL",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10015950",
+      "sigla": "COPPM",
+      "nome": "COMANDO DE OPERACOES POLICIAIS MILITARES",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10016054",
+      "sigla": "DP",
+      "nome": "DEPARTAMENTO DE PESSOAL",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10016305",
+      "sigla": "DS",
+      "nome": "DEPARTAMENTO DE SAUDE",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10016393",
+      "sigla": "IEP",
+      "nome": "INSTITUTO DE ENSINO E PESQUISA",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10016467",
+      "sigla": "CFAP",
+      "nome": "CENTRO DE FORM E APERF DE PRACAS",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10016635",
+      "sigla": "CPE",
+      "nome": "COMANDO DE POLICIAMENTO ESPECIALIZADO",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10016653",
+      "sigla": "CPRMS",
+      "nome": "COMANDO DE POL REG METROP DE SALVADOR",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10016671",
+      "sigla": "CPRC-A",
+      "nome": "COMANDO DE POL REG DA CAPITAL-ATLANTICO",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10016689",
+      "sigla": "CPRC-BTS",
+      "nome": "COMANDO DE POL REGIONAL-B T SANTOS",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10016707",
+      "sigla": "CPRC-C",
+      "nome": "COMANDO DE POL REG DA CAPITAL-CENTRAL",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10016725",
+      "sigla": "CPR-L",
+      "nome": "COMANDO DE POLICIAMENTO DA REGIAO LESTE",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10016744",
+      "sigla": "CPR-S",
+      "nome": "COMANDO DE POLICIAMENTO DA REGIAO SUL",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10016763",
+      "sigla": "CPR-N",
+      "nome": "COMANDO DE POLICIAMENTO DA REGIAO NORTE",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10016782",
+      "sigla": "CPR-O",
+      "nome": "COMANDO DE POLICIAMENTO DA REGIAO OESTE",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10016801",
+      "sigla": "CPR-SO",
+      "nome": "COMANDO DE POL DA REGIAO SUDOESTE",
+      "tipo": "Administrativo"
+    },
+    {
+      "codigo": "10016820",
+      "sigla": "CPR-Chp",
+      "nome": "COMANDO DE POL DA REGIAO DA CHAPADA",
+      "tipo": "Administrativo"
+    }
+  ],
+  "departamentos": [
+    {
+      "codigo": "10015900",
+      "sigla": "CG",
+      "nome": "COMANDO GERAL",
+      "tipo": "Administrativo",
+      "pai_codigo": "10000969"
+    },
+    {
+      "codigo": "10009303",
+      "sigla": "CIPT-R",
+      "nome": "CIA IND DE POL. TATICO - RECONCAVO      ",
+      "tipo": "Operacional",
+      "pai_codigo": "10009126"
+    },
+    {
+      "codigo": "10009361",
+      "sigla": "CIPT-NE",
+      "nome": "CIA IND DE POL TATICO - NORDESTE  ",
+      "tipo": "Operacional",
+      "pai_codigo": "10009165"
+    },
+    {
+      "codigo": "10009435",
+      "sigla": "CIPT-ES",
+      "nome": "CIA IND DE POL TATICO - EXTREMO SUL     ",
+      "tipo": "Operacional",
+      "pai_codigo": "10009184"
+    },
+    {
+      "codigo": "10009448",
+      "sigla": "CIPT-MO",
+      "nome": "CIA IND DE POL. TATICO - MEIO OESTE     ",
+      "tipo": "Operacional",
+      "pai_codigo": "10009203"
+    },
+    {
+      "codigo": "10009346",
+      "sigla": "BPFRV",
+      "nome": "BAT POL PREV FURTOS E ROUBOS DE VEICULOS",
+      "tipo": "Especializada",
+      "pai_codigo": "10009241"
+    },
+    {
+      "codigo": "10009379",
+      "sigla": "BPEsc",
+      "nome": "BAT. POL. ESCOLAR ",
+      "tipo": "Especializada",
+      "pai_codigo": "10009241"
+    },
+    {
+      "codigo": "10009318",
+      "sigla": "BPFRC",
+      "nome": "BAT. POL. PREV. FURTOS E ROUBOS A COLET.",
+      "tipo": "Especializada",
+      "pai_codigo": "10009241"
+    },
+    {
+      "codigo": "10009288",
+      "sigla": "BPPM",
+      "nome": "BAT. POL. PROTECAO A MULHER  ",
+      "tipo": "Especializada",
+      "pai_codigo": "10009241"
+    },
+    {
+      "codigo": "10009613",
+      "sigla": "CIMCAU",
+      "nome": "CIA IND de MED CONF AGRA URB",
+      "tipo": "Especializada",
+      "pai_codigo": "10009241"
+    },
+    {
+      "codigo": "10009332",
+      "sigla": "BPATAMO",
+      "nome": "BAT. DE PATRULHAMENTO TATICO MOVEL      ",
+      "tipo": "Especializada",
+      "pai_codigo": "10009260"
+    },
+    {
+      "codigo": "10009601",
+      "sigla": "CIPE/LESTE",
+      "nome": "CIA IND DE POL ESPECIALIZADO/LESTE",
+      "tipo": "Especializada",
+      "pai_codigo": "10009601"
+    },
+    {
+      "codigo": "10015933",
+      "sigla": "SCG",
+      "nome": "SUBCOMANDO GERAL",
+      "tipo": "Administrativo",
+      "pai_codigo": "10015900"
+    },
+    {
+      "codigo": "10016435",
+      "sigla": "APM",
+      "nome": "ACADEMIA DE POLICIA MILITAR",
+      "tipo": "Administrativo",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016380",
+      "sigla": "BPEO",
+      "nome": "BATALHÃO DE POLÍCIA DE PRONTO EMPREGO OPERACIONAL",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016467",
+      "sigla": "CFAP",
+      "nome": "CENTRO DE FORM E APERF DE PRACAS",
+      "tipo": "Ensino",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016366",
+      "sigla": "CICS",
+      "nome": "CIA INDEPENDENTE DE COMANDO E SERVICOS",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10009184",
+      "sigla": "CPR-ES",
+      "nome": "CMD DE POL. DA REGIAO DO EXTREMO SUL   ",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10009126",
+      "sigla": "CPR-R",
+      "nome": "CMD DE POL. DA REGIAO DO RECONCAVO      ",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10009203",
+      "sigla": "CPR-MO",
+      "nome": "CMD DE POL. DA REGIAO MEIO OESTE        ",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10009165",
+      "sigla": "CPR-NE",
+      "nome": "CMD DE POL. DA REGIAO NORDESTE     ",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10009222",
+      "sigla": "CEPRv",
+      "nome": "CMD ESP. POL. RODOVIARIO   ",
+      "tipo": "Especializada",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10009241",
+      "sigla": "CPAP",
+      "nome": "CMD. POL. DE APOIO OPERACIONAL ",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10009260",
+      "sigla": "CPME",
+      "nome": "CMD. POL. DE MISSOES ESPECIAIS          ",
+      "tipo": "Especializada",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10015980",
+      "sigla": "COInt",
+      "nome": "COMANDO DE OPERACOES DE INTELIGENCIA",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10015950",
+      "sigla": "COPPM",
+      "nome": "COMANDO DE OPERACOES POLICIAIS MILITARES",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016820",
+      "sigla": "CPR-Chp",
+      "nome": "COMANDO DE POL DA REGIAO DA CHAPADA",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016801",
+      "sigla": "CPR-SO",
+      "nome": "COMANDO DE POL DA REGIAO SUDOESTE",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016671",
+      "sigla": "CPRC-A",
+      "nome": "COMANDO DE POL REG DA CAPITAL-ATLANTICO",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016707",
+      "sigla": "CPRC-C",
+      "nome": "COMANDO DE POL REG DA CAPITAL-CENTRAL",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016653",
+      "sigla": "CPRMS",
+      "nome": "COMANDO DE POL REG METROP DE SALVADOR",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016689",
+      "sigla": "CPRC-BTS",
+      "nome": "COMANDO DE POL REGIONAL-B T SANTOS",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016725",
+      "sigla": "CPR-L",
+      "nome": "COMANDO DE POLICIAMENTO DA REGIAO LESTE",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016763",
+      "sigla": "CPR-N",
+      "nome": "COMANDO DE POLICIAMENTO DA REGIAO NORTE",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016782",
+      "sigla": "CPR-O",
+      "nome": "COMANDO DE POLICIAMENTO DA REGIAO OESTE",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016744",
+      "sigla": "CPR-S",
+      "nome": "COMANDO DE POLICIAMENTO DA REGIAO SUL",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016635",
+      "sigla": "CPE",
+      "nome": "COMANDO DE POLICIAMENTO ESPECIALIZADO",
+      "tipo": "Operacional",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016006",
+      "sigla": "Correg PM",
+      "nome": "CORREGEDORIA DA POLICIA MILITAR",
+      "tipo": "Administrativo",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016139",
+      "sigla": "DMT",
+      "nome": "DEPART. DE MODERNIZACAO E TECNOLOGIA",
+      "tipo": "Administrativo",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016097",
+      "sigla": "DAL",
+      "nome": "DEPARTAMENTO DE APOIO LOGISTICO",
+      "tipo": "Administrativo",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016172",
+      "sigla": "DAF",
+      "nome": "DEPARTAMENTO DE AUDITORIA E FINANCAS",
+      "tipo": "Administrativo",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016206",
+      "sigla": "DCS",
+      "nome": "DEPARTAMENTO DE COMUNICACAO SOCIAL",
+      "tipo": "Administrativo",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016054",
+      "sigla": "DP",
+      "nome": "DEPARTAMENTO DE PESSOAL",
+      "tipo": "Administrativo",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016269",
+      "sigla": "DPCDH",
+      "nome": "DEPARTAMENTO DE POL COMUNITARIA E DH",
+      "tipo": "Administrativo",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016232",
+      "sigla": "DPS",
+      "nome": "DEPARTAMENTO DE PROMOCAO SOCIAL",
+      "tipo": "Administrativo",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016305",
+      "sigla": "DS",
+      "nome": "DEPARTAMENTO DE SAUDE",
+      "tipo": "Administrativo",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016028",
+      "sigla": "DEPLAN",
+      "nome": "DEPT DE PLANEJ, ORCAMENTO E GESTAO",
+      "tipo": "Administrativo",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016393",
+      "sigla": "IEP",
+      "nome": "INSTITUTO DE ENSINO E PESQUISA",
+      "tipo": "Ensino",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10016291",
+      "sigla": "OUV",
+      "nome": "OUVIDORIA",
+      "tipo": "Administrativo",
+      "pai_codigo": "10015933"
+    },
+    {
+      "codigo": "10015973",
+      "sigla": "COSE-COPM",
+      "nome": "COORDENADORIA DE OPERACOES E SERVICO EXTRAORDINARIOS",
+      "tipo": "Operacional",
+      "pai_codigo": "10015950"
+    },
+    {
+      "codigo": "10019073",
+      "sigla": "DP CONV RR",
+      "nome": "DP - CONVOCADO RES. REMUNERADA",
+      "tipo": "Administrativo",
+      "pai_codigo": "10016054"
+    },
+    {
+      "codigo": "10019075",
+      "sigla": "DP EXT",
+      "nome": "DP EXTERNO",
+      "tipo": "Reserva E Outros",
+      "pai_codigo": "10016054"
+    },
+    {
+      "codigo": "10019074",
+      "sigla": "DP JULG INC",
+      "nome": "DP/JULGADO INCAPAZ",
+      "tipo": "Reserva E Outros",
+      "pai_codigo": "10016054"
+    },
+    {
+      "codigo": "10019001",
+      "sigla": "HOSPPM",
+      "nome": "HOSPITAL DA POLICIA MILITAR",
+      "tipo": "Administrativo",
+      "pai_codigo": "10016305"
+    },
+    {
+      "codigo": "10019017",
+      "sigla": "ODONT PM",
+      "nome": "ODONTOCLINICA DA POLICIA MILITAR",
+      "tipo": "Administrativo",
+      "pai_codigo": "10016305"
+    },
+    {
+      "codigo": "10016525",
+      "sigla": "CPM/LTARQUIN",
+      "nome": "COLEGIO DA PM / LUIS TARQUINIO",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10016615",
+      "sigla": "CPM/TFREITAS",
+      "nome": "COLEGIO DA PM / TEIXEIRA DE FREITAS",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10016595",
+      "sigla": "CPM/VCONQUIS",
+      "nome": "COLEGIO DA PM / VITORIA DA CONQUISTA",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10016555",
+      "sigla": "CPM/FS",
+      "nome": "COLEGIO DA PM/ FEIRA DE SANTANA",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10016565",
+      "sigla": "CPM/ALAGOINH",
+      "nome": "COLEGIO DA POLICIA MILITAR / ALAGOINHAS",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10016545",
+      "sigla": "CPM/CANDEIAS",
+      "nome": "COLEGIO DA POLICIA MILITAR / CANDEIAS",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10016503",
+      "sigla": "CPM/DENDEZEI",
+      "nome": "COLEGIO DA POLICIA MILITAR / DENDEZEIROS",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10016585",
+      "sigla": "CPM/ILHEUS",
+      "nome": "COLEGIO DA POLICIA MILITAR / ILHEUS",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10016575",
+      "sigla": "CPM/ITABUNA",
+      "nome": "COLEGIO DA POLICIA MILITAR / ITABUNA",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10016605",
+      "sigla": "CPM/JEQUIE",
+      "nome": "COLEGIO DA POLICIA MILITAR / JEQUIE",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10016625",
+      "sigla": "CPM/JUAZEIRO",
+      "nome": "COLEGIO DA POLICIA MILITAR / JUAZEIRO",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10016515",
+      "sigla": "CPM/LOBATO",
+      "nome": "COLEGIO DA POLICIA MILITAR / LOBATO",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10016535",
+      "sigla": "CPM/RIBEIRA",
+      "nome": "COLEGIO DA POLICIA MILITAR / RIBEIRA",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10019053",
+      "sigla": "CPM/NOVO",
+      "nome": "COLEGIO PM  - Novo III",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10019063",
+      "sigla": "CPM/NOVO IV",
+      "nome": "COLEGIO PM  - Novo IV",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10019043",
+      "sigla": "CPMBARREIRAS",
+      "nome": "COLEGIO PM BARREIRAS",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10019033",
+      "sigla": "CPM/CAJAZ",
+      "nome": "COLEGIO PM CAJAZEIRAS",
+      "tipo": "Ensino",
+      "pai_codigo": "10016393"
+    },
+    {
+      "codigo": "10017572",
+      "sigla": "10BEIC/Barre",
+      "nome": "10o BAT ENS INST CAP- BARREIRAS(ESCOLA)",
+      "tipo": "Ensino",
+      "pai_codigo": "10016467"
+    },
+    {
+      "codigo": "10017622",
+      "sigla": "13BEIC/TFrei",
+      "nome": "13o BAT ENS INST CAP / TFREITAS (ESCOLA)",
+      "tipo": "Ensino",
+      "pai_codigo": "10016467"
+    },
+    {
+      "codigo": "10017423",
+      "sigla": "1BEIC/FS",
+      "nome": "1o BEIC / FEIRA DE SANTANA (ESCOLA)",
+      "tipo": "Ensino",
+      "pai_codigo": "10016467"
+    },
+    {
+      "codigo": "10017751",
+      "sigla": "21o BEIC",
+      "nome": "21o BAT ENSINO INST E CAPACITACAO",
+      "tipo": "Ensino",
+      "pai_codigo": "10016467"
+    },
+    {
+      "codigo": "10017440",
+      "sigla": "2BEIC/Ilheus",
+      "nome": "2o BEIC - ILHEUS (ESCOLA)",
+      "tipo": "Ensino",
+      "pai_codigo": "10016467"
+    },
+    {
+      "codigo": "10017457",
+      "sigla": "3BEIC/Juazei",
+      "nome": "3o BEIC - JUAZEIRO (ESCOLA)",
+      "tipo": "Ensino",
+      "pai_codigo": "10016467"
+    },
+    {
+      "codigo": "10017555",
+      "sigla": "9BEIC/VConqu",
+      "nome": "9o BEIC / VITORIA DA CONQUISTA(ESCOLA)",
+      "tipo": "Ensino",
+      "pai_codigo": "10016467"
+    },
+    {
+      "codigo": "10017005",
+      "sigla": "BOPE",
+      "nome": "BAT DE OPERACOES POLICIAIS ESPECIAIS",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10016990",
+      "sigla": "BEPTur",
+      "nome": "BAT ESP DE POLICIA TURISTICA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10016975",
+      "sigla": "BEPE",
+      "nome": "BAT ESP POL DE EVENTOS",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10016959",
+      "sigla": "BPChq",
+      "nome": "BATALHAO DE POLICIA DE CHOQUE",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017038",
+      "sigla": "BPGd",
+      "nome": "BATALHAO DE POLICIA DE GUARDA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017200",
+      "sigla": "BPRv",
+      "nome": "BATALHAO DE POLICIA RODOVIARIA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017384",
+      "sigla": "COPPA",
+      "nome": "CIA DE POL DE PROTECAO AMBIENTAL",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017066",
+      "sigla": "CIPGd/Itabun",
+      "nome": "CIA IND DE POL DE GUARDA - ITABUNA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017054",
+      "sigla": "CIPGd/FSA",
+      "nome": "CIA IND DE POL DE GUARDA / F SANTANA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017397",
+      "sigla": "CIPPA/Lencoi",
+      "nome": "CIA IND DE POL DE PROT AMBIENTAL/LENCOIS",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017410",
+      "sigla": "CIPPA/PS",
+      "nome": "CIA IND DE POL DE PROT AMBIENTAL/PSEGURO",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017252",
+      "sigla": "CIPE/CDiaman",
+      "nome": "CIA IND DE POL ESP/CHAPADA DIAMANTINA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017312",
+      "sigla": "CIPE/L Norte",
+      "nome": "CIA IND DE POL ESP/LITORAL NORTE",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017324",
+      "sigla": "CIPE/M Atlan",
+      "nome": "CIA IND DE POL ESP/MATA ATLANTICA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017336",
+      "sigla": "CIPE/PIndust",
+      "nome": "CIA IND DE POL ESP/POLO INDUSTRIAL",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017348",
+      "sigla": "CIPE/Cacauei",
+      "nome": "CIA IND DE POL ESPECIALIZADA/CACAUEIRA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017372",
+      "sigla": "CIPE/Central",
+      "nome": "CIA IND DE POL ESPECIALIZADA/CENTRAL",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017360",
+      "sigla": "CIPE/Nordest",
+      "nome": "CIA IND DE POL ESPECIALIZADA/NORDESTE",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017300",
+      "sigla": "CIPE/Sudoest",
+      "nome": "CIA IND DE POL ESPECIALIZADA/SUDOESTE",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017264",
+      "sigla": "CIPE/Caating",
+      "nome": "CIA IND DE POL ESPECIALIZADO/CAATINGA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017276",
+      "sigla": "CIPE/Cerrado",
+      "nome": "CIA IND DE POL ESPECIALIZADO/CERRADO",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017288",
+      "sigla": "CIPE/S Arido",
+      "nome": "CIA IND DE POL ESPECIALIZADO/SEMI-ARIDO",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017240",
+      "sigla": "CIPR/Barreir",
+      "nome": "CIA IND DE POL RODOVIARIO/BARREIRAS",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017228",
+      "sigla": "CIPR/Brumado",
+      "nome": "CIA IND DE POL RODOVIARIO/BRUMADO",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017216",
+      "sigla": "CIPR/Itabuna",
+      "nome": "CIA IND DE POL RODOVIARIO/ITABUNA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017078",
+      "sigla": "CIPFaz",
+      "nome": "CIA IND DE POLICIA FAZENDARIA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017102",
+      "sigla": "EsqMcl/FSant",
+      "nome": "ESQ MCL DE FEIRA DE SANTANA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017114",
+      "sigla": "EsqMcl/VConq",
+      "nome": "ESQ MCL DE VITORIA DA CONQUISTA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10009625",
+      "sigla": "ESQ MCL/RMS",
+      "nome": "ESQ MCL/RMS",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017141",
+      "sigla": "EsqPMont/FS",
+      "nome": "ESQ POL MONTADA/FEIRA DE SANTANA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017090",
+      "sigla": "EsqMcl/SSA",
+      "nome": "ESQUADRAO DE MOTOCICLISTAS AGUIA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017156",
+      "sigla": "EsqPMont/It",
+      "nome": "ESQUADRAO DE POLICIA MONTADA/ITABUNA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017126",
+      "sigla": "EsqPMont",
+      "nome": "ESQUADRAO DE POLICIA MONTADA/SSA",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017171",
+      "sigla": "GRAER",
+      "nome": "GRUPAMENTO AEREO",
+      "tipo": "Especializada",
+      "pai_codigo": "10016635"
+    },
+    {
+      "codigo": "10017886",
+      "sigla": "10a CIPM",
+      "nome": "10a CIPM/CANDEIAS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016653"
+    },
+    {
+      "codigo": "10017605",
+      "sigla": "12BPM/Camaca",
+      "nome": "12o BAT POLICIA MILITAR - CAMACARI",
+      "tipo": "Operacional",
+      "pai_codigo": "10016653"
+    },
+    {
+      "codigo": "10018038",
+      "sigla": "22a CIPM",
+      "nome": "22a CIPM/SIMOES FILHO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016653"
+    },
+    {
+      "codigo": "10009407",
+      "sigla": "23o BPM",
+      "nome": "23o BAT. DE POLICIA MILITAR  ",
+      "tipo": "Operacional",
+      "pai_codigo": "10016653"
+    },
+    {
+      "codigo": "10018166",
+      "sigla": "32a CIPM",
+      "nome": "32a CIPM/POJUCA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016653"
+    },
+    {
+      "codigo": "10018216",
+      "sigla": "36a CIPM",
+      "nome": "36a CIPM/DIAS D'AVILA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016653"
+    },
+    {
+      "codigo": "10018418",
+      "sigla": "52a CIPM",
+      "nome": "52a CIPM/LAURO DE FREITAS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016653"
+    },
+    {
+      "codigo": "10018430",
+      "sigla": "53a CIPM",
+      "nome": "53a CIPM/M SAO JOAO/PRAIA DO FORTE",
+      "tipo": "Operacional",
+      "pai_codigo": "10016653"
+    },
+    {
+      "codigo": "10018504",
+      "sigla": "59a CIPM",
+      "nome": "59a CIPM/VILA DE ABRANTES",
+      "tipo": "Operacional",
+      "pai_codigo": "10016653"
+    },
+    {
+      "codigo": "10017819",
+      "sigla": "5a CIPM",
+      "nome": "5a CIPM / VERA CRUZ",
+      "tipo": "Operacional",
+      "pai_codigo": "10016653"
+    },
+    {
+      "codigo": "10018772",
+      "sigla": "81a CIPM",
+      "nome": "81a CIPM/ITINGA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016653"
+    },
+    {
+      "codigo": "10016875",
+      "sigla": "CIPT-RMS",
+      "nome": "CIA IND DE POL TATICO - RMS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016653"
+    },
+    {
+      "codigo": "10017898",
+      "sigla": "11a CIPM",
+      "nome": "11a CIPM/BARRA/GRACA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016671"
+    },
+    {
+      "codigo": "10017910",
+      "sigla": "12a CIPM",
+      "nome": "12a CIPM/RIO VERMELHO/ONDINA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016671"
+    },
+    {
+      "codigo": "10017922",
+      "sigla": "13a CIPM",
+      "nome": "13a CIPM/PITUBA/AMARALINA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016671"
+    },
+    {
+      "codigo": "10017946",
+      "sigla": "15a CIPM",
+      "nome": "15a CIPM/ITAPOAN",
+      "tipo": "Operacional",
+      "pai_codigo": "10016671"
+    },
+    {
+      "codigo": "10018088",
+      "sigla": "26a CIPM",
+      "nome": "26a CIPM/BROTAS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016671"
+    },
+    {
+      "codigo": "10018204",
+      "sigla": "35a CIPM",
+      "nome": "35a CIPM/IGUATEMI",
+      "tipo": "Operacional",
+      "pai_codigo": "10016671"
+    },
+    {
+      "codigo": "10018254",
+      "sigla": "39a CIPM",
+      "nome": "39a CIPM/BOCA DO RIO/IMBUI",
+      "tipo": "Operacional",
+      "pai_codigo": "10016671"
+    },
+    {
+      "codigo": "10018266",
+      "sigla": "40a CIPM",
+      "nome": "40a CIPM/NORDESTE DE AMARALINA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016671"
+    },
+    {
+      "codigo": "10018279",
+      "sigla": "41a CIPM",
+      "nome": "41a CIPM/FEDERACAO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016671"
+    },
+    {
+      "codigo": "10018382",
+      "sigla": "49a CIPM",
+      "nome": "49a CIPM/SAO CRISTOVAO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016671"
+    },
+    {
+      "codigo": "10018492",
+      "sigla": "58a CIPM",
+      "nome": "58a CIPM/COSME DE FARIAS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016671"
+    },
+    {
+      "codigo": "10016839",
+      "sigla": "CIPT-A",
+      "nome": "CIA IND DE POL TATICO - ATLANTICO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016671"
+    },
+    {
+      "codigo": "10017934",
+      "sigla": "14a CIPM",
+      "nome": "14a CIPM/LOBATO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016689"
+    },
+    {
+      "codigo": "10017959",
+      "sigla": "16a CIPM",
+      "nome": "16a CIPM/COMERCIO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016689"
+    },
+    {
+      "codigo": "10017971",
+      "sigla": "17a CIPM",
+      "nome": "17a CIPM/URUGUAI",
+      "tipo": "Operacional",
+      "pai_codigo": "10016689"
+    },
+    {
+      "codigo": "10017984",
+      "sigla": "18a CIPM",
+      "nome": "18a CIPM/PERIPERI",
+      "tipo": "Operacional",
+      "pai_codigo": "10016689"
+    },
+    {
+      "codigo": "10017704",
+      "sigla": "18BPM/CHisto",
+      "nome": "18o BAT PM - CENTRO HISTORICO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016689"
+    },
+    {
+      "codigo": "10017997",
+      "sigla": "19a CIPM",
+      "nome": "19a CIPM/PARIPE",
+      "tipo": "Operacional",
+      "pai_codigo": "10016689"
+    },
+    {
+      "codigo": "10017780",
+      "sigla": "2a CIPM",
+      "nome": "2a CIPM/BARBALHO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016689"
+    },
+    {
+      "codigo": "10018154",
+      "sigla": "31a CIPM",
+      "nome": "31a CIPM / VALERIA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016689"
+    },
+    {
+      "codigo": "10018228",
+      "sigla": "37a CIPM",
+      "nome": "37a CIPM/LIBERDADE",
+      "tipo": "Operacional",
+      "pai_codigo": "10016689"
+    },
+    {
+      "codigo": "10017873",
+      "sigla": "9a CIPM",
+      "nome": "9a CIPM/PIRAJA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016689"
+    },
+    {
+      "codigo": "10016851",
+      "sigla": "CIPT-BTS",
+      "nome": "CIA IND DE POL TATICO-B TODOS OS SANTOS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016689"
+    },
+    {
+      "codigo": "10017768",
+      "sigla": "1a CIPM",
+      "nome": "1a CIPM/PERNAMBUES",
+      "tipo": "Operacional",
+      "pai_codigo": "10016707"
+    },
+    {
+      "codigo": "10009393",
+      "sigla": "22o BPM",
+      "nome": "22o BAT. DE POLICIA MILITAR ",
+      "tipo": "Operacional",
+      "pai_codigo": "10016707"
+    },
+    {
+      "codigo": "10018050",
+      "sigla": "23a CIPM",
+      "nome": "23a CIPM/TANCREDO NEVES",
+      "tipo": "Operacional",
+      "pai_codigo": "10016707"
+    },
+    {
+      "codigo": "10017792",
+      "sigla": "3a CIPM",
+      "nome": "3a CIPM/CAJAZEIRAS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016707"
+    },
+    {
+      "codigo": "10018358",
+      "sigla": "47a CIPM",
+      "nome": "47a CIPM/PAU DA LIMA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016707"
+    },
+    {
+      "codigo": "10018370",
+      "sigla": "48a CIPM",
+      "nome": "48a CIPM/SUSSUARANA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016707"
+    },
+    {
+      "codigo": "10018394",
+      "sigla": "50a CIPM",
+      "nome": "50a CIPM/SETE DE ABRIL",
+      "tipo": "Operacional",
+      "pai_codigo": "10016707"
+    },
+    {
+      "codigo": "10018785",
+      "sigla": "82a CIPM",
+      "nome": "82a CIPM/CENTRO ADM DA BAHIA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016707"
+    },
+    {
+      "codigo": "10016863",
+      "sigla": "CIPT-C",
+      "nome": "CIA IND DE POL TATICO - CENTRAL",
+      "tipo": "Operacional",
+      "pai_codigo": "10016707"
+    },
+    {
+      "codigo": "10017639",
+      "sigla": "14BPM/SAJ",
+      "nome": "14o BAT DE POLICIA MILITAR - SAJ",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10017672",
+      "sigla": "16BPM/Serrin",
+      "nome": "16o BAT DE POLICIA MILITAR - SERRINHA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10018010",
+      "sigla": "20a CIPM",
+      "nome": "20a CIPM/SANTO AMARO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10018024",
+      "sigla": "21a CIPM",
+      "nome": "21a CIPM/CIPO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10018100",
+      "sigla": "27a CIPM",
+      "nome": "27a CIPM/CRUZ DAS ALMAS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10017474",
+      "sigla": "4BPM/Alagoin",
+      "nome": "4o BAT DE POLICIA MILITAR - ALAGOINHAS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10018406",
+      "sigla": "51a CIPM",
+      "nome": "51a CIPM/CONDE",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10018468",
+      "sigla": "56a CIPM",
+      "nome": "56a CIPM/ENTRE RIOS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10018480",
+      "sigla": "57a CIPM",
+      "nome": "57a CIPM/SANTO ESTEVAO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10017490",
+      "sigla": "5BPM/ECunha",
+      "nome": "5o BAT DE POLICIA MILITAR - E DA CUNHA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10018566",
+      "sigla": "64a CIPM",
+      "nome": "64a CIPM/FEIRA DE SANTANA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10018578",
+      "sigla": "65a CIPM",
+      "nome": "65a CIPM/FEIRA DE SANTANA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10018591",
+      "sigla": "66a CIPM",
+      "nome": "66a CIPM/FEIRA DE SANTANA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10018603",
+      "sigla": "67a CIPM",
+      "nome": "67a CIPM/FEIRA DE SANTANA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10017831",
+      "sigla": "6a CIPM",
+      "nome": "6a CIPM/RIO REAL",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10018881",
+      "sigla": "90a CIPM",
+      "nome": "90a CIPM/RIACHAO DO JACUIPE",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10018941",
+      "sigla": "95a CIPM",
+      "nome": "95a CIPM/CATU",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10018965",
+      "sigla": "97a CIPM",
+      "nome": "97a CIPM/IRARA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10018989",
+      "sigla": "99a CIPM",
+      "nome": "99a CIPM/AMARGOSA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10016911",
+      "sigla": "CIPT-L",
+      "nome": "CIA IND DE POL TATICO - LESTE",
+      "tipo": "Operacional",
+      "pai_codigo": "10016725"
+    },
+    {
+      "codigo": "10017655",
+      "sigla": "15BPM/Itabun",
+      "nome": "15o BAT DE POLICIA MILITAR - ITABUNA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10018178",
+      "sigla": "33a CIPM",
+      "nome": "33a CIPM/VALENCA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10018304",
+      "sigla": "43a CIPM",
+      "nome": "43a CIPM/ITAMARAJU",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10018318",
+      "sigla": "44a CIPM",
+      "nome": "44a CIPM/MEDEIROS NETO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10018516",
+      "sigla": "60a CIPM",
+      "nome": "60a CIPM/GANDU",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10018530",
+      "sigla": "61a CIPM",
+      "nome": "61a CIPM/UBAITABA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10018542",
+      "sigla": "62a CIPM",
+      "nome": "62a CIPM/CAMACA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10018554",
+      "sigla": "63a CIPM",
+      "nome": "63a CIPM/IBICARAI",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10018615",
+      "sigla": "68a CIPM",
+      "nome": "68a CIPM/ILHEUS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10018627",
+      "sigla": "69a CIPM",
+      "nome": "69a CIPM/ILHEUS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10018639",
+      "sigla": "70a CIPM",
+      "nome": "70a CIPM/ILHEUS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10018651",
+      "sigla": "71a CIPM",
+      "nome": "71a CIPM/CANAVIEIRAS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10018663",
+      "sigla": "72a CIPM",
+      "nome": "72a CIPM/ITACARE",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10017845",
+      "sigla": "7a CIPM",
+      "nome": "7a CIPM/EUNAPOLIS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10018845",
+      "sigla": "87a CIPM",
+      "nome": "87a CIPM/TEIXEIRA DE FREITAS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10018857",
+      "sigla": "88a CIPM",
+      "nome": "88a CIPM/ALCOBACA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10018869",
+      "sigla": "89a CIPM",
+      "nome": "89a CIPM/MUCURI",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10017538",
+      "sigla": "8BPM/PSeguro",
+      "nome": "8o BAT DE POLICIA MILITAR - PORTO SEGURO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10016899",
+      "sigla": "CIPT-S",
+      "nome": "CIA IND DE POL TATICO-SUL",
+      "tipo": "Operacional",
+      "pai_codigo": "10016744"
+    },
+    {
+      "codigo": "10017735",
+      "sigla": "20BPM/PAfons",
+      "nome": "20o BAT DE POLICIA MILITAR- PAULO AFONSO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016763"
+    },
+    {
+      "codigo": "10018062",
+      "sigla": "24a CIPM",
+      "nome": "24a CIPM/JACOBINA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016763"
+    },
+    {
+      "codigo": "10018076",
+      "sigla": "25a CIPM",
+      "nome": "25a CIPM/CASA NOVA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016763"
+    },
+    {
+      "codigo": "10018332",
+      "sigla": "45a CIPM",
+      "nome": "45a CIPM/CURACA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016763"
+    },
+    {
+      "codigo": "10018442",
+      "sigla": "54a CIPM",
+      "nome": "54a CIPM/CAMPO FORMOSO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016763"
+    },
+    {
+      "codigo": "10017506",
+      "sigla": "6BPM/SBonfim",
+      "nome": "6o BAT DE POLICIA MILITAR - SR DO BONFIM",
+      "tipo": "Operacional",
+      "pai_codigo": "10016763"
+    },
+    {
+      "codigo": "10018675",
+      "sigla": "73a CIPM",
+      "nome": "73a CIPM/JUAZEIRO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016763"
+    },
+    {
+      "codigo": "10018687",
+      "sigla": "74a CIPM",
+      "nome": "74a CIPM/JUAZEIRO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016763"
+    },
+    {
+      "codigo": "10018699",
+      "sigla": "75a CIPM",
+      "nome": "75a CIPM/JUAZEIRO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016763"
+    },
+    {
+      "codigo": "10018711",
+      "sigla": "76a CIPM",
+      "nome": "76a CIPM/JUAZEIRO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016763"
+    },
+    {
+      "codigo": "10018893",
+      "sigla": "91a CIPM",
+      "nome": "91a CIPM/CAPIM GROSSO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016763"
+    },
+    {
+      "codigo": "10018953",
+      "sigla": "96a CIPM",
+      "nome": "96a CIPM/SOBRADINHO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016763"
+    },
+    {
+      "codigo": "10016887",
+      "sigla": "CIPT-N",
+      "nome": "CIA IND DE POL TATICO-NORTE",
+      "tipo": "Operacional",
+      "pai_codigo": "10016763"
+    },
+    {
+      "codigo": "10018114",
+      "sigla": "28a CIPM",
+      "nome": "28a CIPM/IBOTIRAMA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016782"
+    },
+    {
+      "codigo": "10018140",
+      "sigla": "30a CIPM",
+      "nome": "30a CIPM/SANTA MARIA DA VITORIA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016782"
+    },
+    {
+      "codigo": "10018240",
+      "sigla": "38a CIPM",
+      "nome": "38a CIPM/BOM JESUS DA LAPA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016782"
+    },
+    {
+      "codigo": "10017805",
+      "sigla": "4a CIPM",
+      "nome": "4a CIPM/MACAUBAS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016782"
+    },
+    {
+      "codigo": "10018797",
+      "sigla": "83a CIPM",
+      "nome": "83a CIPM/BARREIRAS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016782"
+    },
+    {
+      "codigo": "10018809",
+      "sigla": "84a CIPM",
+      "nome": "84a CIPM/BARREIRAS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016782"
+    },
+    {
+      "codigo": "10018821",
+      "sigla": "85a CIPM",
+      "nome": "85a CIPM/LUIS EDUARDO MAGALHAES",
+      "tipo": "Operacional",
+      "pai_codigo": "10016782"
+    },
+    {
+      "codigo": "10018833",
+      "sigla": "86a CIPM",
+      "nome": "86a CIPM/FORMOSA DO RIO PRETO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016782"
+    },
+    {
+      "codigo": "10016923",
+      "sigla": "CIPT-O",
+      "nome": "CIA IND DE POL TATICO - OESTE",
+      "tipo": "Operacional",
+      "pai_codigo": "10016782"
+    },
+    {
+      "codigo": "10017688",
+      "sigla": "17BPM/Guanam",
+      "nome": "17o BAT DE POLICIA MILITAR - GUANAMBI",
+      "tipo": "Operacional",
+      "pai_codigo": "10016801"
+    },
+    {
+      "codigo": "10017719",
+      "sigla": "19BPM/Jequie",
+      "nome": "19o BAT DE POLICIA MILITAR - JEQUIE",
+      "tipo": "Operacional",
+      "pai_codigo": "10016801"
+    },
+    {
+      "codigo": "10009421",
+      "sigla": "24o BPM",
+      "nome": "24o BAT. DE POLICIA MILITAR  ",
+      "tipo": "Operacional",
+      "pai_codigo": "10016801"
+    },
+    {
+      "codigo": "10018192",
+      "sigla": "34a CIPM",
+      "nome": "34a CIPM/BRUMADO",
+      "tipo": "Operacional",
+      "pai_codigo": "10016801"
+    },
+    {
+      "codigo": "10018344",
+      "sigla": "46a CIPM",
+      "nome": "46a CIPM/LIVRAMENTO DE NOSSA SENHORA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016801"
+    },
+    {
+      "codigo": "10018454",
+      "sigla": "55a CIPM",
+      "nome": "55a CIPM/IPIAU",
+      "tipo": "Operacional",
+      "pai_codigo": "10016801"
+    },
+    {
+      "codigo": "10018723",
+      "sigla": "77a CIPM",
+      "nome": "77a CIPM/VITORIA DA CONQUISTA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016801"
+    },
+    {
+      "codigo": "10018736",
+      "sigla": "78a CIPM",
+      "nome": "78a CIPM/VITORIA DA CONQUISTA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016801"
+    },
+    {
+      "codigo": "10018748",
+      "sigla": "79a CIPM",
+      "nome": "79a CIPM/POCOES",
+      "tipo": "Operacional",
+      "pai_codigo": "10016801"
+    },
+    {
+      "codigo": "10018760",
+      "sigla": "80a CIPM",
+      "nome": "80a CIPM/CANDIDO SALES",
+      "tipo": "Operacional",
+      "pai_codigo": "10016801"
+    },
+    {
+      "codigo": "10017859",
+      "sigla": "8a CIPM",
+      "nome": "8a CIPM/ITAPETINGA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016801"
+    },
+    {
+      "codigo": "10018905",
+      "sigla": "92a CIPM",
+      "nome": "92a CIPM/VITORIA DA CONSQUISTA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016801"
+    },
+    {
+      "codigo": "10018917",
+      "sigla": "93a CIPM",
+      "nome": "93a CIPM/MARACAS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016801"
+    },
+    {
+      "codigo": "10018929",
+      "sigla": "94a CIPM",
+      "nome": "94a CIPM/CAETITE",
+      "tipo": "Operacional",
+      "pai_codigo": "10016801"
+    },
+    {
+      "codigo": "10016947",
+      "sigla": "CIPT-SO",
+      "nome": "CIA IND DE POL TATICO - SUDOESTE",
+      "tipo": "Operacional",
+      "pai_codigo": "10016801"
+    },
+    {
+      "codigo": "10017589",
+      "sigla": "11BPM/Itaber",
+      "nome": "11o BAT DE POLICIA MILITAR - ITABERABA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016820"
+    },
+    {
+      "codigo": "10018128",
+      "sigla": "29a CIPM",
+      "nome": "29a CIPM/SEABRA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016820"
+    },
+    {
+      "codigo": "10018292",
+      "sigla": "42a CIPM",
+      "nome": "42a CIPM/LENCOIS",
+      "tipo": "Operacional",
+      "pai_codigo": "10016820"
+    },
+    {
+      "codigo": "10017522",
+      "sigla": "7o BPM/Irece",
+      "nome": "7o BATALHAO DE POLICIA MILITAR - IRECE",
+      "tipo": "Operacional",
+      "pai_codigo": "10016820"
+    },
+    {
+      "codigo": "10018977",
+      "sigla": "98a CIPM",
+      "nome": "98a CIPM/IPIRA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016820"
+    },
+    {
+      "codigo": "10016935",
+      "sigla": "CIPT-Chp",
+      "nome": "CIA IND DE POL TATICO - CHAPADA",
+      "tipo": "Operacional",
+      "pai_codigo": "10016820"
+    }
+  ]
+}
