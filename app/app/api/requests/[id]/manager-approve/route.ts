@@ -34,6 +34,10 @@ export async function POST(
     if (request.departmentId !== session.user.departmentId) {
       return NextResponse.json({ error: "Você só pode aprovar solicitações do seu departamento" }, { status: 403 });
     }
+    
+    // Importar serviço de notificação
+    const { notificationService } = await import("@/lib/notification-service");
+    await notificationService.createRequestApprovalNotifications(requestId, session.user.id, true);
 
     // Verificar se ainda está pendente de autorização do gestor
     if (request.managerStatus !== "PENDING_AUTHORIZATION") {

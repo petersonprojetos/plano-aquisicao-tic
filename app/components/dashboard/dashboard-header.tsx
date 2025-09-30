@@ -13,7 +13,8 @@ import {
   DropdownMenuTrigger 
 } from "@/components/ui/dropdown-menu";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { LogOut, Settings, User } from "lucide-react";
+import { LogOut, Settings, User, Bell } from "lucide-react";
+import { NotificationsDropdown } from "./notifications-dropdown";
 
 interface DashboardHeaderProps {
   session: any;
@@ -63,10 +64,13 @@ export function DashboardHeader({ session }: DashboardHeaderProps) {
           </div>
           
           <div className="flex items-center space-x-2 sm:space-x-3 md:space-x-4">
+            <NotificationsDropdown />
+
             <div className="text-xs sm:text-sm text-gray-600 hidden lg:block">
-              {session?.user?.role === "MANAGER" || session?.user?.role === "ADMIN" 
+             {/*session?.user?.role === "MANAGER" || session?.user?.role === "ADMIN" 
                 ? "Gestor de Aquisição" 
-                : "Usuário do Departamento"}
+                : "Usuário do Departamento"*/}
+                {session?.user?.name}
             </div>
             
             <DropdownMenu>

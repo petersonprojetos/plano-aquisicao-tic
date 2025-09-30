@@ -59,6 +59,10 @@ export async function POST(
       }
     });
 
+    // Importar serviço de notificação
+    const { notificationService } = await import("@/lib/notification-service");
+    await notificationService.createRequestReturnNotifications(requestId, session.user.id, false);
+
     // Criar histórico
     await prisma.requestHistory.create({
       data: {

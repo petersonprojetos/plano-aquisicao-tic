@@ -34,6 +34,7 @@ model User {
   notifications Notification[]
   annualPlansCreated AnnualPlan[] @relation("CreatedBy")
   annualPlansUpdated AnnualPlan[] @relation("UpdatedBy")
+  receivedNotifications Notification[] @relation("NotificationReceiver")
 
   @@map("users")
 }
@@ -441,4 +442,30 @@ enum ParameterType {
   COLOR
   IMAGE
   JSON
+}
+
+enum NotificationType {
+  REQUEST_CREATED
+  REQUEST_APPROVED
+  REQUEST_RETURNED
+  REQUEST_DENIED
+}
+
+model Notification {
+  id        String   @id @default(cuid())
+  type      NotificationType
+  title     String
+  message   String
+  isRead    Boolean  @default(false)
+  sentAt    DateTime? 
+  userId    String   @map("user_id")
+  requestId String   @map("request_id")
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user    User    @relation("NotificationReceiver", fields: [userId], references: [id], onDelete: Cascade)
+  request Request @relation(fields: [requestId], references: [id], onDelete: Cascade)
+
+  @@map("notifications")
 }

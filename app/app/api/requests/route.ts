@@ -267,6 +267,28 @@ export async function POST(req: Request) {
       }
     });
 
+    // Importar serviço de notificação
+    const { notificationService } = await import("@/lib/notification-service");
+    await notificationService.createRequestNotifications(request.id);
+
+    // Notificar o gestor do departamento
+    const department = await prisma.department.findUnique({
+      where: { id: session.user.departmentId },
+      include: { manager: true }
+    });
+
+    if (department?.managerId) {
+      await prisma.notification.create({
+        data: {
+          userId: department.managerId,
+          requestId: request.id,
+          type: "REQUEST_CREATED",
+          title: "Nova Solicitação para Autorizar",
+          message: `A solicitação #${request.requestNumber} de ${session.user.name} aguarda sua autorização.`,
+        }
+      });
+    }
+
     return NextResponse.json({
       message: "Solicitação criada com sucesso",
       request: {
